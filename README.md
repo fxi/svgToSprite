@@ -2,7 +2,7 @@
 
 Dockerized spritezero. Create sprite files, with sdf option set, so `icon-color` works:
 
-![icon-color](https://github.com/fxi/svgToSprite/raw/master/img/mx_icon_color.git "icon-color example");
+![icon-color](https://raw.githubusercontent.com/fxi/svgToSprite/master/img/mx_icon_color.gif "icon-color example");
 
 Based on [spritezero readme](https://github.com/mapbox/spritezero)
 
