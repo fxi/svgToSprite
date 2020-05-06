@@ -1,0 +1,2 @@
+# svgToSprite
+Dockerized spritezero
