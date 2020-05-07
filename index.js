@@ -4,8 +4,9 @@ const glob = require('glob');
 const path = require('path');
 
 const dirOut = path.resolve(__dirname, '/dist');
+const dirIn = path.resolve(__dirname,'/svg/*.svg');
 
-const svgs = glob.sync('./svg/*.svg').map((f) => {
+const svgs = glob.sync(dirIn).map((f) => {
   return {
     svg: fs.readFileSync(f),
     id: path.basename(f).replace('.svg', ''),

@@ -8,6 +8,6 @@ Based on [spritezero readme](https://github.com/mapbox/spritezero)
 
 1. Add your `*.svg` files in a `svg` folder
 2. Create a `dist` folder
-3. Run Docker : `docker run -v $(pwd)/dist:/dist -v $(pwd)/svg:/svg fredmoser/svg_to_sprite:latest`
+3. Run Docker : `docker run -rm -v $(pwd)/dist:/dist -v $(pwd)/svg:/svg fredmoser/svg_to_sprite:latest`
 
 
